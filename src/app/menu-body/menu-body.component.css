@@ -1,0 +1,70 @@
+.banner-container{
+    height: 300px;
+    background-image: url(../../assets/banner_bags.png);
+    background-size:cover;
+}
+
+[class*="slot-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "slot-1 slot-2 slot-3 slot-4"
+    "slot-5 slot-6 slot-7 slot-8"
+    "slot-9 slot-10 slot-11 slot-12";
+}
+
+.slot-1 {
+  grid-area: slot-1;
+}
+
+.slot-2 {
+  grid-area: slot-2;
+}
+
+.slot-3 {
+  grid-area: slot-3;
+}
+
+.slot-4 {
+  grid-area: slot-4;
+}
+
+.slot-5 {
+  grid-area: slot-5;
+}
+
+.slot-6 {
+  grid-area: slot-6;
+}
+
+.slot-7 {
+  grid-area: slot-7;
+}
+
+.slot-8 {
+  grid-area: slot-8;
+}
+
+.slot-9 {
+  grid-area: slot-9;
+}
+
+.slot-10 {
+  grid-area: slot-10;
+}
+
+.slot-11 {
+  grid-area: slot-11;
+}
+
+.slot-12 {
+  grid-area: slot-12;
+}
